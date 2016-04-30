@@ -6,6 +6,7 @@ var staticVideo = document.getElementById("staticVideo");
 $('.greenButton').hide();
 $('#staticVideo').prop('muted', 'false');
 
+
 // STATIC VIDEO
 function playStaticVideo() {
   staticVideo.play();
