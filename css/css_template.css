@@ -1,0 +1,60 @@
+body{
+    position: fixed;
+    /*background: url("../img/turqoise.png") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+}
+.emptyTV{
+    position: absolute;
+/*    width: 855px;*/
+    z-index: 100;
+    /*Kan inte ha z-index här, då kan du inte starta youtube klippet*/
+    margin: 408px 105px;
+}
+#div1 {
+    position: absolute;
+    height: 480px;
+    width: 854px;
+    margin: 751px 321px;
+    -webkit-perspective: 150px;
+    perspective: 150px;
+    -moz-perspective: 150px;
+    transform:skew(1deg,13deg);
+}
+#div2 {
+    position: absolute;
+    -webkit-transform: rotateY(45deg);
+    transform: rotateY(-5deg);
+}
+/*-----------------------------------------------------------*/
+
+#div3 {
+    position: absolute;
+    /*transform: rotate(20deg);*/
+}
+.mainVideo{
+    position: absolute;
+    width: 347px; 
+    /*height: 383px;*/
+    z-index: -100;
+    /*object-fit: cover;*/
+}
+.staticVideo{
+    position: absolute;
+    width: 512px; 
+    z-index: -90;
+}
+.rotateEverything{
+    position: relative;
+    transform: rotate(-26deg);
+}
+.blackButton{
+    position: absolute;
+    margin: 683px 647px;
+    z-index: 100;
+}
+.greenButton{
+    position: absolute;
+    margin: 687px 653px;
+    z-index: 100;
+}
